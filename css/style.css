@@ -46,6 +46,15 @@ a {
 
 }
 
+/* Logo */
+
+#logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 32px;
+}
+
 /* Nav */
 #nav {
     position: fixed;
@@ -77,4 +86,18 @@ a {
 /* Page Layout */
 .section {
     min-height: 100vh;
+}
+
+#bio {
+    background-image: url("../images/bio-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.caseStudy {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px
 }
